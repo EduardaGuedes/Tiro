@@ -1,0 +1,37 @@
+*{
+    font-family:examplemonospace;
+  }
+  
+  body{
+      color:white;
+      background-color: black;
+  }
+  
+  #campo{
+    text-align: center;
+  }
+  
+  #campo table{
+    width: 200px;
+    height: auto;
+    margin: auto;
+    border-collapse: separate;
+    color: lightgray;
+  }
+  
+  #campo th, td{
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid lightgray;;
+  }
+  
+  #campo #refresh{
+    margin: 50px;
+  }
+  
+  button{
+    font-size:15px;
+    font-family:examplemonospace;
+    background-color: rgb(80, 67, 80);
+    color: rgb(241, 241, 239);
+}

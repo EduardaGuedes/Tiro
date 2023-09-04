@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <title>Tiro ao alvo</title>
+
+    <meta charset = "UTF-8"/>
+    <meta name="description" content="Listar score"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="icon" href="imagens/mini1.png"/>
+    <link rel="stylesheet" type="text/css" href="core.css">
+    <script src="fund.js"></script>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script var rota = 'http://localhost:5000/Listar'></script>
+
+<body>
+    <div id="campo">
+    <h1>Scores</h1>
+        <table>
+            <thead>
+                <tr id="Lacuna">
+                    <th>ID</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="scores"></tbody>
+        </table>
+        <button id="refresh">Atualizar</button>
+    </div>
+</body>
+</html>
